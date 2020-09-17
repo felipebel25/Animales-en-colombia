@@ -1,9 +1,9 @@
 var imagenes = []
-imagenes["Burra"] = "urra.png";
-imagenes["Pollito"] = "pollo.png";
-imagenes["Duque"] = "cerdo.png";
-imagenes["Marimondas"] = "Marimondas.png";
-imagenes["Vaca"] = "vaca.png";
+imagenes["Burra"] = "./Images/urra.png";
+imagenes["Pollito"] = "./Images/pollo.png";
+imagenes["Duque"] = "./Images/cerdo.png";
+imagenes["Marimondas"] = "./Images/Marimondas.png";
+imagenes["Vaca"] = "./Images/vaca.png";
 
 class chinpokomon
 {
@@ -25,7 +25,7 @@ class chinpokomon
 	mostrar()
 	{	
 		document.body.appendChild(this.imagen);
-		document.write("<br />  <strong> " + this.nombre + ":</strong> <br />" + " Vida: " + this.vida + "<br /> " + "Ataque: " + this.ataque + "<br />");
+		document.write("<br />  <strong> " + this.nombre + ":</strong> <br />" + " Vida: " + this.vida + "<br /> " + "Ataque: " + this.ataque + "<br /> <hr>");
 		
 		
 	}
